@@ -1,0 +1,61 @@
+body {
+    background-image: url("agilitydog.jpg");
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: overlay;
+    font-family: 'Verdana', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    color: #734529;
+}
+
+.container {
+    background: #E2DEFF;
+    max-width: 50%;
+    margin: auto;
+    border: solid 2px #734529;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2 {
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fefefe;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    border: none;
+    background: #734529;
+}
+
+#save-btn {
+    border: solid 2px #734529;
+    background: #fefefe;
+    color: #734529;
+}
+
+#save-el {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
