@@ -12,8 +12,10 @@ body {
 
 .container {
     background: #E2DEFF;
-    max-width: 50%;
-    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     border: solid 2px #734529;
     border-radius: 10px;
 }
